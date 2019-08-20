@@ -1,4 +1,10 @@
 - instrukcja warunkowa `if`
+
 - pętla `while`
+
 - podstawowe struktury danych (`tuple` i `list`)
+ tuple - immutable
+ list - muttable
+
 - pętla `for`
+  range, step,
