@@ -1,0 +1,4 @@
+- wprowadzenie (czym jest programowanie, języki programowanie)
+- instalacja i konfiguracja środowiska
+- interakcja z użytkownikiem (`print` i `input`)
+- podstawowe typy danych i zmienne (`int`, `float`, `str`, `bool`)
