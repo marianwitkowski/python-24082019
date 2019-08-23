@@ -2,7 +2,8 @@
  a) algorytmy - wprowadzenie
  a) języki programowania - rodzaje technologii
  c) ekosystem programowania
- d) narzędzia do programowania
+ d) gdzie stosowany jest Python
+ e) narzędzia do programowania
 
 2. instalacja i konfiguracja środowiska
  a) command line
@@ -15,6 +16,7 @@
  c) str = łanuch znaków
  d) bool = True/False 1/0
  e) operatory (+,-,/,%,//,**)
+ f) operatory logiczne / operatory bitwise
 
 4. interakcja z użytkownikiem (`print` i `input`)
 
