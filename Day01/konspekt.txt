@@ -15,7 +15,7 @@
  b) float = precyzja
  c) str = łanuch znaków
  d) bool = True/False 1/0
- e) operatory (+,-,/,%,//,**)
+ e) operatory (+,-,/,%,//,**) += -= /=
  f) operatory logiczne / operatory bitwise
 
 4. interakcja z użytkownikiem (`print` i `input`)

@@ -1,5 +1,6 @@
 - instrukcja warunkowa `if`
-  a =
+  10 if a>10 else 20
+  if  2<x<5
 
 - pętla `while`
 
