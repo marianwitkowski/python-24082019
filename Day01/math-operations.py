@@ -13,5 +13,6 @@ print(" Iloraz = ", a/b)
 # iloraz z modulo
 print(" Iloraz modulo = ", a%b)
 # iloraz calkowity
-print(" Iloraz calkowity", a//b)
-
+print(" Iloraz calkowity = ", a//b)
+# potega
+print(" Potęgowanie a^b = ", a**b)
