@@ -1,5 +1,8 @@
 """
+
 Enumerate - przyklad
+Opis funkcji - https://www.programiz.com/python-programming/methods/built-in/enumerate
+
 """
 
 # zadanie - wypisać zawartość listy wraz z informacją o indeksie (numeracja od 1)
