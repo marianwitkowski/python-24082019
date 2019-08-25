@@ -1,5 +1,9 @@
 - instrukcja warunkowa `if`
 
+- listy
+  https://www.programiz.com/python-programming/list
+
+
 - pętla `while`
 
 - podstawowe struktury danych (`tuple` i `list`)
