@@ -20,3 +20,4 @@ print("\nWersja z Enumerate")
 for index, element in enumerate(lista, 1):
     print(f"Element nr {index} to {element}")
 
+
