@@ -1,5 +1,4 @@
 - instrukcja warunkowa `if`
-  a =
 
 - pętla `while`
 
