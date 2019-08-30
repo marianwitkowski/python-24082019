@@ -1,0 +1,4 @@
+- wyjątki
+- testy
+- wyrażenia regularne
+- bazy danych

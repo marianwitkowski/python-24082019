@@ -1,0 +1,10 @@
+- zbiory (set)
+- słowniki (dictionary)
+- funkcje (parametry, parametry domyslne, parametry *args i **kwargs)
+- funkcje (rekurencja) - fibo i silnia
+
+- map / filter / reduce / sorted
+- listy (wyrazenia listowe)
+- wyrazenia lambda
+- pypi (pip install nazwa_pakietu)
+- aplikacja testowa (pobieranie danych z GPW)
