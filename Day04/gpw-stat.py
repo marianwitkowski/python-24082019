@@ -8,6 +8,7 @@ Analiza danych archiwalnych dla spółek GPW
 - zapis do XLSX
 
 """
+
 spolka = "pge"
 data_start = "2019-01-01"
 data_stop = "2019-01-10"
