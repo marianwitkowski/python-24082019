@@ -3,6 +3,7 @@ Co to sa krotki
 """
 krotka = (1, "OK", 10.05)
 #krotka[0] = 10 - to powoduje wyjatek
+#
 print(type(krotka))
 print(krotka)
 
