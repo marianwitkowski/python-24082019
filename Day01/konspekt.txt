@@ -1,0 +1,25 @@
+1. wprowadzenie (czym jest programowanie, języki programowanie)
+ a) algorytmy - wprowadzenie
+ a) języki programowania - rodzaje technologii
+ c) ekosystem programowania
+ d) gdzie stosowany jest Python
+ e) narzędzia do programowania
+
+2. instalacja i konfiguracja środowiska
+ a) command line
+ b) notepad / Visual Studio Code
+ c) pyCharm - https://www.jetbrains.com/pycharm/
+
+3. podstawowe typy danych i zmienne (`int`, `float`, `str`, `bool`)
+ a) int = zakres
+ b) float = precyzja
+ c) str = łanuch znaków
+ d) bool = True/False 1/0
+ e) operatory (+,-,/,%,//,**)
+ f) operatory logiczne / operatory bitwise
+
+4. interakcja z użytkownikiem (`print` i `input`)
+
+ a) input - var = input('Prompt: '); print(var)
+ b) print - formatowanie (https://www.learnpython.org/en/String_Formatting). format, f-string
+
