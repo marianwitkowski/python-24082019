@@ -1,10 +1,9 @@
 - zbiory (set)
 - słowniki (dictionary)
 - funkcje (parametry, parametry domyslne, parametry *args i **kwargs)
-- funkcje (rekurencja)
+- funkcje (rekurencja) - fibo i silnia
 
 - map / filter / reduce / sorted
-- list comprehension (wyrażenia listowe)
-- wyrażenia lambda
-- pypi (pip install)
-- aplikacja testowa (pobieranie danych z GPW)
+- listy (wyrazenia listowe)
+- wyrazenia lambda
+- pypi (pip install nazwa_pakietu)

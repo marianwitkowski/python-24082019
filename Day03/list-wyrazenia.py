@@ -15,7 +15,6 @@ for elem in lista:
     lista_wy.append(elem*2)
 print("po mnozeniu: ",lista_wy)
 
-
 def mnoz_razy_2(x):
     return x*2
 print("mnożę x 2 w map: ", list(map(mnoz_razy_2, lista)))
