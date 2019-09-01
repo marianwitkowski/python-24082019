@@ -7,4 +7,3 @@
 - listy (wyrazenia listowe)
 - wyrazenia lambda
 - pypi (pip install nazwa_pakietu)
-- aplikacja testowa (pobieranie danych z GPW)
