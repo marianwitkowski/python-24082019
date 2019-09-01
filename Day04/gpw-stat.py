@@ -30,6 +30,7 @@ def pobierz_dane(spolka, start, stop):
     else:
         return s
 
+
 """
  Funkcja tworzy rekord na podstawie wiersza z pliku CSV
  Jesli nie mozna utworzyc poprawnego rekordu, zwroc None
