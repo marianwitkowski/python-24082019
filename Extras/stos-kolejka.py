@@ -6,7 +6,7 @@ from collections import deque
 
 # przykład użycia stosu
 # tworzenie
-print("**** STOS ******")
+print("**** STOS (pierwszy wchodzi, ostatni wychodzi) ******")
 wyrazy = deque()
 tekst = "Ala ma kota i kot jest rudy"
 for slowo in tekst.split(" "):
@@ -23,6 +23,8 @@ print("="*30)
 
 # kolejka
 # tworzenie danych
+print("**** KOLEJKA (pierwszy wchodzi, pierwszy wychodzi) ******")
+
 wyrazy = deque()
 tekst = "Ala ma kota i kot jest rudy"
 for slowo in tekst.split(" "):
