@@ -1,0 +1,4 @@
+
+- programowanie obiektowe
+- iterator/generator
+- bazy danych
