@@ -1,0 +1,4 @@
+
+- moduły
+- iteratory/dekoratory
+- operacje I/O

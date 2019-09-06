@@ -2,4 +2,4 @@
 - aplikacja testowa (pobieranie danych z GPW)
 - wyjątki
 - wyrażenia regularne
-- bazy danych
+

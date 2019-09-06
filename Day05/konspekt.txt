@@ -1,4 +1,4 @@
 
 - programowanie obiektowe
-- iterator/generator
+- date/time
 - bazy danych
