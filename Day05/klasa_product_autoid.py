@@ -8,8 +8,13 @@
 """
 class Product:
 
+    auto_id = 1
+
     def __init__(self,  name, price):
-        pass
+        self._name = name
+        self._price = price
+        self._id = Product.auto_id
+        Product.auto_id += 1
 
     def __str__(self):
         return f"ID={self._id}, name={self._name}, price={self._price}"
