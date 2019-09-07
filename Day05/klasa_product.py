@@ -7,7 +7,7 @@
 """
 class Product:
 
-    def __init__(self):
+    def __init__(self, id, name, price):
         pass
 
     def get_info(self):
