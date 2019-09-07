@@ -8,24 +8,29 @@
 class Product:
 
     def __init__(self, id, name, price):
-        pass
+        self._id = id
+        self._name = name
+        self._price = price
 
     def get_info(self):
         # proszę aby zwróciło string
-        pass
+        return f"ID={self._id}, name={self._name}, price={self._price}"
+
+    def __str__(self):
+        return f"ID={self._id}, name={self._name}, price={self._price}"
 
     def set_price(self, new_price):
-        pass
+        self._price = new_price
 
     def get_price(self):
-        pass
+        return self._price
 
 # przyklad uzycia
 woda = Product(1, 'Woda', 2.99)
-print(woda.get_info())
+print(woda)
 
 kabanos = Product(2, 'Kabanosy', 7.95)
-print(kabanos.get_info())
+print(kabanos)
 
 hotdog = Product(3, 'Hotdog XXL', 6.99)
-print(hotdog.get_info())
+print(hotdog)
