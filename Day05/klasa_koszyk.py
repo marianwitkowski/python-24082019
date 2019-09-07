@@ -25,16 +25,24 @@ Napisac metode obliczajac wartosc koszyka (wartosc wszystkich produktow)
 """
 class Basket:
     def __init__(self):
-        pass
+        self._items = dict()
+        self._price = 0
 
     def add_product(self, product, qnty):
-        pass
+        if product not in self._items.keys():
+            self._items[product] = qnty
+        else:
+            self._items[product] += qnty
+        #aktualizuj kwote total za produkty w koszyku
+        self._price += product.get_price()*qnty
 
     def get_total_price(self):
-        pass
+        return self._price
 
     def show_basket(self):
-        pass
+        for key in self._items.keys():
+            qnty = self._items[key]
+            print(f"{str(key)} - ilość {qnty}")
 
 
 woda = Product(1, 'Woda mineralna', 2.99)
