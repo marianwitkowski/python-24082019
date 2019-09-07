@@ -1,4 +1,5 @@
 
+- bazy danych
 - moduły
 - iteratory/dekoratory
 - operacje I/O

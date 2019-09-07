@@ -1,4 +1,3 @@
 
 - programowanie obiektowe
 - date/time
-- bazy danych
