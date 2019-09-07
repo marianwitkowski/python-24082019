@@ -29,7 +29,7 @@ class Osoba:
     nazwisko = property(odczytaj_nazwisko, ustaw_nazwisko)
 
     @staticmethod
-    def pobierz_licznik(self):
+    def pobierz_licznik():
         return Osoba.liczba_obiektow
 
 class Kobieta(Osoba):
@@ -60,4 +60,4 @@ print(f"Plec: {kobieta1.pobierz_plec()}")
 
 kobieta2 = Kobieta("Agnieszka", "Kowalska")
 
-print(f"Liczba obiektow: {Osoba.liczba_obiektow}")
+print(f"Liczba obiektow: {Osoba.pobierz_licznik()}")
