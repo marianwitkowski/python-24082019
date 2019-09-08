@@ -7,6 +7,7 @@ try:
                                          user='kurspython',
                                          password='!kurspython$')
     print("Connect to DB")
+    connection.autocommit = True
 
     cursor = connection.cursor()
     sql = "SELECT id, imie, nazwisko, wiek, adres, data_rejestracji FROM osoby WHERE id<10 ORDER BY id DESC"
@@ -25,6 +26,22 @@ try:
         print("Danych njet")
     else:
         print(row)
+
+    sql = "INSERT INTO osoby (imie, nazwisko, wiek) VALUES (%s, %s, %s)"
+    dane = ("Grażyna", "Z Balladyny", 18)
+    cursor.execute(sql, dane)
+    print("Insert done!")
+
+    #id=28
+    sql = "UPDATE osoby SET nazwisko=%s where id=%s"
+    dane = ("Z Bagna", 28)
+    cursor.execute(sql, dane)
+    print("Update done!")
+
+    sql = "DELETE FROM osoby where id=%s"
+    dane = (28,)
+    cursor.execute(sql, dane)
+    print("Delete done!")
 
 except Error as e:
     print(e)
