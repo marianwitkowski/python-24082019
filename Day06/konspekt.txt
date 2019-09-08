@@ -1,6 +1,6 @@
 
-- iteratory/generatory
 - operacje I/O
+- iteratory/generatory
 - bazy danych
 - moduły
 

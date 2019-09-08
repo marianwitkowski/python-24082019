@@ -3,7 +3,7 @@ import shutil
 #
 # Funkcja kopiujaca pliki
 #
-def copy_file(src, dst, buffer_size=4096):
+def copy_file(src, dst, buffer_size=6666666):
     with open(src,"rb") as f1, open(dst, "wb") as f2:
         while True:
             #odczytaj z src
