@@ -1,6 +1,10 @@
 """
 Napisać klasę, która dokonuje statystyki tekstu
 Szablony metod poniżej
+
+Przykładowy plik z tekstem do pobrania z
+https://raw.githubusercontent.com/marianwitkowski/python-24082019/master/Extras/pasta.txt
+
 """
 
 class TextParser:
@@ -46,7 +50,7 @@ class TextParser:
 
 
 #
-# Przykład uzycia
+# Przykład uzycia klasy
 #
 
 parser = TextParser("file.txt")
