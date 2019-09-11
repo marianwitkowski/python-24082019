@@ -36,6 +36,30 @@ class Basket:
         #aktualizuj kwote total za produkty w koszyku
         self._price += product.get_price()*qnty
 
+    def remove_product(self, product, qnty=-1):
+        if qnty < -1 or qnty == 0:
+            raise Exception("Incorrect qnty")
+
+        if product not in self._items.keys():
+            raise Exception(f"Product {str(product)} not found in basket")
+
+        curr_qnty = self._items[product]
+        if qnty>curr_qnty:
+            raise Exception("Trying remove to much items")
+
+        if qnty == -1:
+            curr_qnty = 0
+            self._price -= product.get_price() * self._items[product]
+        else:
+            curr_qnty = curr_qnty - qnty
+            self._price -= product.get_price() * qnty
+
+        if curr_qnty==0:
+            del(self._items[product])
+        else:
+            self._items[product] = curr_qnty
+
+
     def get_total_price(self):
         return self._price
 
@@ -52,6 +76,8 @@ hotdog = Product(4, 'Hotdog XXL', 7.99)
 
 basket=Basket()
 basket.add_product(woda, 10)
+basket.remove_product(woda)
+
 basket.add_product(zupka, 5)
 basket.add_product(hotdog,2)
 basket.add_product(woda,5)
