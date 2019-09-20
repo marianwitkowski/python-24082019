@@ -1,0 +1,5 @@
+- moduły
+- biblioteka standardowa
+- JSON
+- Rest API -> https://wl-api.mf.gov.pl/api/search/nip/5272538934?date=2019-01-01
+- HTTP i parsowanie danych HTML (otomoto.pl)
