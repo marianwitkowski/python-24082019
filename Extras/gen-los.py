@@ -68,14 +68,14 @@ class PrimeGenerator:
 
 
 ### przykład użycia ###
-primes_gen = PrimeGenerator(int(10E9))
+primes_gen = PrimeGenerator(int(1000))
 
 # losujemy 1000 liczb pierwszych z zakresu 1-10E9
-for _ in range(1000):
+for i in range(1000):
     try:
         print("Losowa liczba pierwsza = ",primes_gen.generate())
     except Exception as e:
         print("Achtung!",e)
         break
-
+print("Total=",i+1)
 primes_gen.reset()
