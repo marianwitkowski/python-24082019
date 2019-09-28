@@ -12,7 +12,6 @@ def create_reponse(message, code):
     resp.mimetype = 'application/json'
     return resp
 
-
 def generate_file(filename, delay):
     time.sleep(delay)
     with open(filename, "wt") as fh:
